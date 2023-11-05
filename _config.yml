@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 # edit here to achieve your personal greatness
 url: http://arialdomartini.github.io/
 baseurl: /
-title: Arialdo Martini
+title: Arialdo on Coding
 author: Arialdo Martini
 description: Personal resume
 avatar: arialdomartini.jpg
@@ -32,3 +32,6 @@ analytics:
 # needed for travis-ci build
 #exclude: [vendor]
 permalink: /:title
+
+plugins:
+  - jekyll-feed
